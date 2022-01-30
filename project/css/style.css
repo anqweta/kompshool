@@ -13,21 +13,23 @@ body {
 .main,
 .footer {
   margin: 0 auto;
-  width: 1070px;
+  width: 1120px;
   background: #c9b2ea;
+  position: relative;
 }
 .nav {
-  margin: 0 auto;
-  width: 1070px;
+  margin: 10px auto;
+  width: 1120px;
   background: #997bc3;
 }
 .content {
+  margin-left: 30px;
   margin-bottom: 20px;
 }
 .header {
   height: 638px;
   background: url("../img/back_header.png");
-  background-size: 109%;
+  background-size: 100%;
   background-position: center;
   padding-top: 244px;
 }
@@ -36,7 +38,7 @@ body {
   font-size: 50px;
   text-align: center;
   background: #c9b2ea;
-  color: white;
+  color: black;
   width: 650px;
   margin: 0 auto;
 }
@@ -48,7 +50,7 @@ body {
   list-style: none;
 }
 .resources {
-  margin-top: 25px;
+  margin: 25px;
 }
 
 .resource_item {
@@ -61,7 +63,7 @@ body {
   text-align: center;
 }
 .menu_item1 {
-  width: 260px;
+  width: 280px;
   height: 145px;
   left: 71px;
   top: 500px;
@@ -76,7 +78,7 @@ body {
   text-align: center;
 }
 .menu_item2 {
-  width: 260px;
+  width: 270px;
   height: 145px;
   left: 360px;
   top: 500px;
@@ -91,7 +93,7 @@ body {
   text-align: center;
 }
 .menu_item3 {
-  width: 260px;
+  width: 280px;
   height: 145px;
   left: 651px;
   top: 500px;
@@ -122,11 +124,64 @@ body {
 }
 .footer {
   height: 100px;
-  left: 10px;
-  top: 1768px;
+  margin-top: 20px;
   text-align: center;
   background: #c9b2ea;
 }
 a {
-  color: white;
+  color: black;
+}
+.main_content_img {
+  width: 300px;
+  height: 300px;
+}
+.main_content {
+  float: right;
+  width: 750px;
+}
+.information {
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  width: 400px;
+  height: 400px;
+}
+.main_item {
+  z-index: 2343444343434;
+}
+.res1 {
+  float: right;
+  width: 350px;
+  height: 300px;
+}
+main {
+  height: 420px;
+  position: relative;
+}
+.list {
+  position: relative;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(139, 82, 161);
+  text-decoration: underline;
+}
+.div-main {
+  width: 1000px;
+  height: 200px;
+  margin-left: 50px;
+}
+.planet {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 100px;
+  bottom: 20px;
+}
+.planet-img {
+  width: 400px;
+  height: 400px;
 }
