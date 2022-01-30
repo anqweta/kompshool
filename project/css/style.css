@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background: #997bc3;
+}
+
+.header,
+.main,
+.footer {
+  margin: 0 auto;
+  width: 1070px;
+  background: #c9b2ea;
+}
+.nav {
+  margin: 0 auto;
+  width: 1070px;
+  background: #997bc3;
+}
+.content {
+  margin-bottom: 20px;
+}
+.header {
+  height: 638px;
+  background: url("../img/back_header.png");
+  background-size: 109%;
+  background-position: center;
+  padding-top: 244px;
+}
+
+.header_title {
+  font-size: 50px;
+  text-align: center;
+  background: #c9b2ea;
+  color: white;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.resources {
+  margin-top: 25px;
+}
+
+.resource_item {
+  display: inline-block;
+  margin-right: 30px;
+  padding-left: 50px;
+}
+
+.type_name {
+  text-align: center;
+}
+.menu_item1 {
+  width: 260px;
+  height: 145px;
+  left: 71px;
+  top: 500px;
+  background-color: #c9b2ea;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.menu_item2 {
+  width: 260px;
+  height: 145px;
+  left: 360px;
+  top: 500px;
+  background-color: #c9b2ea;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.menu_item3 {
+  width: 260px;
+  height: 145px;
+  left: 651px;
+  top: 500px;
+  background-color: #c9b2ea;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.menu_item4 {
+  width: 269px;
+  height: 145px;
+  left: 941px;
+  top: 638px;
+  background-color: #c9b2ea;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.footer {
+  height: 100px;
+  left: 10px;
+  top: 1768px;
+  text-align: center;
+  background: #c9b2ea;
+}
+a {
+  color: white;
+}
